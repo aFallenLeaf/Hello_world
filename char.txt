@@ -1,36 +1,4 @@
-#include<stdio.h>
-int main()
-{
-	int i=0,j=7;
-	char ch=0x84;
-	char t=ch;
-	char y=ch;
-	while(i<j)
-	{
-		if((t&(0x1<<i))==0)
-		{
-			t&=~(0x1<<j);
-				
-		}
-		else {
-			t|=(0x1<<j);
-			t&=~(0x1<<i);
-		}
-
-		if((y&(0x1<<j))==0)
-		{
-			y&=~(0x1<<i);
-		}
-		else {
-			y|=(0x1<<i);
-			y&=~(0x1<<j);
-		}
-		printf("%#x\n",t);
-		printf("%#x\n",y);
-		i++;
-		j--;
-	}
-	ch=t|y;
-	printf("%#x\n",ch);
+("%#x\n",ch);
 	return 0;
 }
+hello world
