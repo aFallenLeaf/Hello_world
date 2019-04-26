@@ -1,5 +1,1 @@
-("%#x\n",ch);
-	return 0;
-}
-hello world
-nihaobeijing
+5210
